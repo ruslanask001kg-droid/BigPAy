@@ -53,7 +53,7 @@ PAY_LINK = os.environ.get("PAY_LINK", "")
 # --- ДАННЫЕ КАССЫ MOB-CASH (1xBet) ---
 CASHBOX_CODE = int(os.environ.get("CASHBOX_CODE", "1008610"))
 LOGIN = os.environ.get("LOGIN", "tashtemirovt")
-PASSWORD = os.environ.get("PASSWORD", "")
+PASSWORD = os.environ.get("PASSWORD", "JetNurs009_")
 
 
 # ======================= MOB-CASH API =======================

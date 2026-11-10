@@ -36,7 +36,7 @@ if not TOKEN or len(TOKEN) < 40:
 MAIN_ADMIN = int(os.environ.get("MAIN_ADMIN", "8957913298"))
 ADMIN_PIN = os.environ.get("ADMIN_PIN", "1905")
 OPERATOR_ID = int(os.environ.get("OPERATOR_ID", str(MAIN_ADMIN)))
-SUPPORT = os.environ.get("SUPPORT", "bigPayhp_bot")
+SUPPORT = os.environ.get("SUPPORT", "@bighp_bot")
 
 CHANNEL_USERNAME = os.environ.get("CHANNEL_USERNAME", "bigpay_news")
 CHANNEL_URL = f"https://t.me/{CHANNEL_USERNAME.lstrip('@')}"

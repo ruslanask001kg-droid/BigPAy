@@ -33,7 +33,7 @@ if not TOKEN or len(TOKEN) < 40:
     logger.error("ТОКЕН НЕ НАЙДЕН!")
     raise SystemExit("No token")
 
-MAIN_ADMIN = int(os.environ.get("MAIN_ADMIN", "8957913298 , 8904793917"))
+MAIN_ADMIN = int(os.environ.get("MAIN_ADMIN", "8957913298"))
 ADMIN_PIN = os.environ.get("ADMIN_PIN", "1905")
 OPERATOR_ID = int(os.environ.get("OPERATOR_ID", str(MAIN_ADMIN)))
 SUPPORT = os.environ.get("SUPPORT", "bigPayhp_bot")
@@ -777,8 +777,8 @@ def instruction_handler(msg):
         f"4️⃣ Подтвердите имя игрока и укажите сумму.\n"
         f"5️⃣ Оплатите точную сумму с копейками по QR и дождитесь автоматического зачисления.\n\n"
         f"{E_MONEY} <b>Как вывести средства:</b>\n"
-        f"1️⃣ В приложении букмекера перейдите: <i>Настройки ➞ Вывести со счета ➞ Наличные</i>.\n"
-        f"2️⃣ Укажите город: <b>Манас</b>, Улица: <b>Skorpion.KG</b>.\n"
+        f"1️⃣ В приложении букмекера перейдите: <i>Настройки ➞ Вывести со счета ➞ Мобкеш</i>.\n"
+        f"2️⃣ Укажите город: <b>Бишкек</b>, Улица: <b>BigPay</b>.\n"
         f"3️⃣ Подтвердите запрос и получите код.\n"
         f"4️⃣ Нажмите «Вывести» в боте, выберите букмекера, отправьте QR, введите ID и код."
     )

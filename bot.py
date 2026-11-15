@@ -53,7 +53,7 @@ REF_PERCENT = 3      # % от каждого принятого пополнен
 REF_MIN = 200        # мин. сумма пополнения БК / вывода с реф. баланса (KGS)
 
 WEBAPP_URL = os.environ.get("WEBAPP_URL", "").rstrip("/")
-PAY_LINK = os.environ.get("PAY_LINK", "")
+PAY_LINK = os.environ.get("PAY_LINK", "https://api.dengi.o.kg/?amount=35.01#00020101021132680012p2p.dengi.kg01048580111248585910014510129965081005291202111302123410%D0%9D%D0%A3%D0%A0%D0%93%D0%A3%D0%9B%D0%AC%20%D0%9C.520473995303417540105906O%21Bank63049745")
 
 # Банки для оплаты (все кнопки ведут на один PAY_LINK)
 BANKS = ["MBank", "Bakai", "О!Банк"]
